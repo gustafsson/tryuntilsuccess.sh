@@ -1,5 +1,10 @@
 #!/bin/bash
-# See README
+#
+# tryuntilsuccess.sh N cmd arg1 arg2 ...
+# ======================================
+# Executes a bash command 'cmd'. If it fails it is called again. N sets a limit on the number of attempts.
+#
+# https://github.com/gustafsson/tryuntilsuccess.sh
 
 set -e
 
